@@ -1,0 +1,89 @@
+.elementor-1370 .elementor-element.elementor-element-f84c5dd{padding:195px 30px 105px 30px;}.elementor-1370 .elementor-element.elementor-element-67850f97{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;padding:100px 30px 100px 30px;}.elementor-1370 .elementor-element.elementor-element-67850f97 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-1370 .elementor-element.elementor-element-72a43e36 .elementor-toggle-title{font-family:"Open Sans";font-weight:600;text-transform:uppercase;}.elementor-1370 .elementor-element.elementor-element-72a43e36 .elementor-tab-title .elementor-toggle-icon i:before{color:var( --e-global-color-primary );}.elementor-1370 .elementor-element.elementor-element-72a43e36 .elementor-tab-title .elementor-toggle-icon svg{fill:var( --e-global-color-primary );}.elementor-1370 .elementor-element.elementor-element-72a43e36 .elementor-tab-title.elementor-active .elementor-toggle-icon i:before{color:var( --e-global-color-primary );}.elementor-1370 .elementor-element.elementor-element-72a43e36 .elementor-tab-title.elementor-active .elementor-toggle-icon svg{fill:var( --e-global-color-primary );}.elementor-1370 .elementor-element.elementor-element-72a43e36 .elementor-tab-content{font-family:"Open Sans";font-size:16px;font-weight:400;}/* Start custom CSS for section, class: .elementor-element-f84c5dd */.elementor-1370 .elementor-element.elementor-element-f84c5dd {
+	background: radial-gradient(ellipse at center, rgb(28, 175, 255) 0%, rgb(0, 130, 201) 100%);
+	position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: auto;
+/*    background-position: 50% 50%;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-repeat: repeat;
+    background-repeat-x: repeat;
+    background-repeat-y: repeat;
+    background-size: 275px, contain;
+    background-attachment: fixed;
+*/}/* End custom CSS */
+/* Start custom CSS for toggle, class: .elementor-element-72a43e36 */.elementor-1370 .elementor-element.elementor-element-72a43e36 .elementor-tab-title, .elementor-tab-content {
+    border-bottom: unset !important;
+}
+.elementor-1370 .elementor-element.elementor-element-72a43e36 .elementor-tab-title.elementor-active .elementor-toggle-icon  {
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transform: rotate(
+180deg
+);
+    -webkit-transform: rotate(
+180deg
+);
+}
+.elementor-1370 .elementor-element.elementor-element-72a43e36 .elementor-tab-title .elementor-toggle-icon  {
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transform: rotate(
+0deg
+);
+    -webkit-transform: rotate(
+0deg
+);
+}
+
+.elementor-1370 .elementor-element.elementor-element-72a43e36 .elementor-tab-content a {
+    color: var( --e-global-color-876ec83 ) !important;
+}
+.elementor-1370 .elementor-element.elementor-element-72a43e36 .elementor-tab-content a:hover {
+    opacity: 0.7;
+}/* End custom CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Open Sans';
+	font-style: italic;
+	font-weight: 300;
+	font-display: auto;
+	src: url('http://localhost:8080/wp-content/uploads/2022/06/Open-Sans-Light-Italic-v15.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Open Sans';
+	font-style: italic;
+	font-weight: 400;
+	font-display: auto;
+	src: url('http://localhost:8080/wp-content/uploads/2022/06/Open-Sans-Italic-v15.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Open Sans';
+	font-style: italic;
+	font-weight: 600;
+	font-display: auto;
+	src: url('http://localhost:8080/wp-content/uploads/2022/06/Open-Sans-SemiBold-Italic-v15.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 300;
+	font-display: auto;
+	src: url('http://localhost:8080/wp-content/uploads/2022/06/Open-Sans-Light-v15.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-display: auto;
+	src: url('http://localhost:8080/wp-content/uploads/2022/06/Open-Sans-Regular-v15.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-display: auto;
+	src: url('http://localhost:8080/wp-content/uploads/2022/06/Open-Sans-SemiBold-v15.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */

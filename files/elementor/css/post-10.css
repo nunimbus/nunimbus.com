@@ -1,0 +1,134 @@
+.elementor-10 .elementor-element.elementor-element-2d0ac0b5 > .elementor-container{min-height:90px;}.elementor-10 .elementor-element.elementor-element-316ab243{text-align:left;z-index:1;}.elementor-10 .elementor-element.elementor-element-316ab243 img{width:80%;}.elementor-10 .elementor-element.elementor-element-52616021 .elementor-menu-toggle{margin-left:auto;background-color:#02010100;}.elementor-10 .elementor-element.elementor-element-52616021 .elementor-nav-menu .elementor-item{font-family:var( --e-global-typography-secondary-font-family );font-size:var( --e-global-typography-secondary-font-size );font-weight:var( --e-global-typography-secondary-font-weight );line-height:var( --e-global-typography-secondary-line-height );}.elementor-10 .elementor-element.elementor-element-52616021 .elementor-nav-menu--main .elementor-item{color:#FFFFFF;fill:#FFFFFF;}.elementor-10 .elementor-element.elementor-element-52616021 .elementor-nav-menu--main .elementor-item:hover,
+					.elementor-10 .elementor-element.elementor-element-52616021 .elementor-nav-menu--main .elementor-item.elementor-item-active,
+					.elementor-10 .elementor-element.elementor-element-52616021 .elementor-nav-menu--main .elementor-item.highlighted,
+					.elementor-10 .elementor-element.elementor-element-52616021 .elementor-nav-menu--main .elementor-item:focus{color:#FFFFFF99;fill:#FFFFFF99;}.elementor-10 .elementor-element.elementor-element-52616021 div.elementor-menu-toggle{color:#000000;}.elementor-10 .elementor-element.elementor-element-52616021 div.elementor-menu-toggle svg{fill:#000000;}.elementor-10 .elementor-element.elementor-element-52616021 > .elementor-widget-container{--e-transform-transition-duration:300ms;}@media(min-width:768px){.elementor-10 .elementor-element.elementor-element-8185abb{width:10%;}.elementor-10 .elementor-element.elementor-element-433ea01f{width:90%;}}@media(max-width:1024px){.elementor-10 .elementor-element.elementor-element-52616021 .elementor-nav-menu .elementor-item{font-size:var( --e-global-typography-secondary-font-size );line-height:var( --e-global-typography-secondary-line-height );}}@media(max-width:767px){.elementor-10 .elementor-element.elementor-element-52616021 .elementor-nav-menu .elementor-item{font-size:var( --e-global-typography-secondary-font-size );line-height:var( --e-global-typography-secondary-line-height );}}/* Start custom CSS for nav-menu, class: .elementor-element-52616021 *//*.elementor-active*/
+/**/
+.elementor-10 .elementor-element.elementor-element-52616021 .elementor-menu-toggle .eicon-menu-bar:before{
+    content: "";
+    color: white;
+    background-color: white;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    margin-top: 0;
+    z-index: 8;
+    display: block;
+    margin-right: 0;
+    border: none;
+    float: right;
+    width: 53px;
+    height: 53px;
+}
+/**
+.elementor-10 .elementor-element.elementor-element-52616021 .elementor-menu-toggle .eicon-menu-bar:hover {
+        transform: scale(1.1);
+        transition: transform 0.3s cubic-bezier(0.56, 1, 0.86, 1.39);
+        transition-property: transform;
+        transition-duration: 0.3s;
+        transition-timing-function: cubic-bezier(0.56, 1, 0.86, 1.39);
+        transition-delay: initial
+    }
+/**/
+
+/**/
+.elementor-10 .elementor-element.elementor-element-52616021{
+    --gap: 0.15em;
+    --weight: 0.04em;
+    --width: 0.9em;
+}
+.elementor-10 .elementor-element.elementor-element-52616021 .elementor-menu-toggle{
+    position: relative;
+}
+.elementor-10 .elementor-element.elementor-element-52616021 .elementor-menu-toggle:before,
+.elementor-10 .elementor-element.elementor-element-52616021 .elementor-menu-toggle:after,
+.elementor-10 .elementor-element.elementor-element-52616021 .elementor-menu-toggle i:after{
+    content: "";
+    height: var(--weight);
+    width: var(--width);
+    position: absolute;
+    background: currentColor;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,calc(-50% + var(--gap)));
+    transition: all 0.3s ease-in-out;
+}
+
+/* bottom */
+.elementor-10 .elementor-element.elementor-element-52616021 .elementor-menu-toggle.elementor-active:before{
+    transform: translate(-50%,-50%) rotate(-45deg);
+}
+.elementor-10 .elementor-element.elementor-element-52616021 .elementor-menu-toggle:after{
+    transform: translate(-50%,calc(-50% - var(--gap)));
+}
+/* top */
+.elementor-10 .elementor-element.elementor-element-52616021 .elementor-menu-toggle.elementor-active:after{
+    transform: translate(-50%,-50%) rotate(45deg);
+}
+.elementor-10 .elementor-element.elementor-element-52616021 .elementor-menu-toggle i:after{
+    /*transform: translate(-50%,-50%);*/
+}
+.elementor-10 .elementor-element.elementor-element-52616021 .elementor-menu-toggle i:before {
+    /*opacity: 0;*/
+}
+.elementor-10 .elementor-element.elementor-element-52616021 .elementor-menu-toggle.elementor-active i:after{
+    opacity: 0;
+}
+/**//* End custom CSS */
+/* Start custom CSS for section, class: .elementor-element-2d0ac0b5 */header.sticky-header {
+    --header-height: 90px;
+    --opacity: 1.0;
+    --shrink-me: 0.60;
+    --shrink-logo: 0.40;
+    --sticky-background-color: #fff;
+    --transition: .3s ease-in-out;
+
+    transition: background-color var(--transition),
+                background-image var(--transition),
+                backdrop-filter var(--transition),
+                opacity var(--transition);
+}
+header.sticky-header.elementor-sticky--effects {
+    background-color: var(--sticky-background-color) !important;
+    background-image: none !important;
+    opacity: var(--opacity) !important;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 1px 2px 0px rgb(0 0 0 / 9%);
+}
+header.sticky-header > .elementor-container {
+    transition: min-height var(--transition);
+}
+header.sticky-header.elementor-sticky--effects > .elementor-container {
+    min-height: calc(var(--header-height) * var(--shrink-me))!important;
+    height: calc(var(--header-height) * var(--shrink-me));
+}
+header.sticky-header .elementor-nav-menu .elementor-item {
+    transition: all var(--transition);
+}
+header.sticky-header.elementor-sticky--effects .elementor-nav-menu .elementor-item {
+    padding-bottom: 10px !important;
+    padding-top: 10px !important;
+    color: #555 !important;
+}
+header.sticky-header.elementor-sticky--effects .elementor-nav-menu .elementor-item:hover {
+    opacity: 60%;
+}
+header.sticky-header > .elementor-container .logo img {
+    transition: max-width var(--transition);
+}
+header.sticky-header.elementor-sticky--effects .logo a {
+    max-width: calc(100% * var(--shrink-logo));
+    content: url('/wp-content/uploads/2022/06/nunimbus.svg');
+}
+.elementor-10 .elementor-element.elementor-element-2d0ac0b5 {
+	background-color: #0082c9;
+	background-image: url(/wp-content/uploads/2022/06/nextcloud-background.svg), linear-gradient(40deg, #0082c9 0%, #1cafff 100%);
+    background-position: 50% 50%;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-repeat: repeat;
+    background-repeat-x: repeat;
+    background-repeat-y: repeat;
+    background-size: 275px, contain;
+    background-attachment: fixed;
+}/* End custom CSS */
